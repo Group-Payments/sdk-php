@@ -1,0 +1,9 @@
+{
+  "name": "group-payments/sdk",
+  "description": "Group Pay API client for PHP (zero dependencies)",
+  "type": "library",
+  "license": "MIT",
+  "support": { "source": "https://github.com/Group-Payments/sdk-php" },
+  "require": { "php": ">=8.1", "ext-curl": "*", "ext-json": "*" },
+  "autoload": { "psr-4": { "GroupPayments\\": "src/" } }
+}
